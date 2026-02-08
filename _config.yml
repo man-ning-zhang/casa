@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "mn.png"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Manning Zhang"
 description              : &description "PhD Candidate in Sociology and Health Policy"
@@ -86,13 +86,13 @@ analytics:
 author:
   name             : "Manning Zhang"
   avatar           : "mn.png"
-  bio              : "PhD Candidate"
+  bio              : "PhD Candidate in Sociology and Health Policy"
   location         : "Waltham, US"
   employer         :
   pubmed           : 
-  googlescholar    :
+  googlescholar    :  "https://scholar.google.com/citations?user=C5xRneUAAAAJ&hl=en"
   email            :  "manningz33@brandeis.edu"
-  researchgate     :  ""
+  researchgate     :  "https://www.researchgate.net/profile/Manning-Zhang-3"
   uri              :
   bitbucket        :
   codepen          :
@@ -107,7 +107,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-0172-6826"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
