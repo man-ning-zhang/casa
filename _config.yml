@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "JK"
+title                    : "Wanderer"
 title_separator          : "-"
-name                     : &name "Julian Klug"
-description              : &description "MD"
-url                      : https://www.julianklug.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Manning Zhang"
+description              : &description "PhD Candidate in Sociology and Health Policy"
+url                      : https://man-ning-zhang.github.io/casa/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "JulianKlug/monsieurwave.github.io"
+repository               : "https://github.com/man-ning-zhang/casa"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -61,7 +61,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -84,15 +84,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Julian Klug"
-  avatar           : "id.jpeg"
-  bio              : "MD"
-  location         : "Geneva, Switzerland"
+  name             : "Manning Zhang"
+  avatar           : "mn.png"
+  bio              : "PhD Candidate"
+  location         : "Waltham, US"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Klug%20J%5BAuthor%5D&cauthor=true&cauthor_uid=29698734"
+  pubmed           : 
   googlescholar    :
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Julian_Klug"
+  email            :  "manningz33@brandeis.edu"
+  researchgate     :  ""
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "JulianKlug"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -113,7 +113,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@Monsieur_Wave"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
