@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a critical care fellow currently training in the Lausanne University Hospital and working in the [Geneva Stroke Lab](https://www.carreralab.com/) led by Prof. Emmanuel Carrera (Hôpitaux Universitaires de Genève). Previously, I had the opportunity to learn and work at the [MIP-lab](https://miplab.epfl.ch/) headed by Prof. Dimitri Van De Ville (EPFL) and the [Lee Lab](https://oto.hms.harvard.edu/people/daniel-lee) directed by Dr. Daniel Lee (Harvard, MEEI). My research centers on biomedical applications of machine learning, with a special focus on acute ischemic stroke.
+I am a medical and cultural sociologist at Brandeis University. My research centers on health
 
-In addition to my clinical work and research, I love designing practical tools to enhance the care for patients and enjoy contributing to open-source projects. See [Kassandra](https://kassandra.julianklug.com), a tool to bring machine learning into my clinical practice. I have worked on PHI, a tool aiming to connect patients to their hospital caregivers before and after their stay and had a hand in peer-to-peer communication networks whilst running Vlynt.  
+In addition to my academic pursuit, I love to...  
 
-For a more formal account of my academic work, see my [Curriculum Vitae](https://www.julianklug.com/files/cv_julian_klug.pdf) or [Google Scholar](https://scholar.google.com/citations?user=uvlWXnAAAAAJ&hl=en).
+For a more formal account of my academic work, see my [Curriculum Vitae]("") or [Google Scholar](https://scholar.google.com/citations?user=C5xRneUAAAAJ&hl=en).
 
 ---
 
@@ -22,7 +22,7 @@ Academic Projects
 - Brains and Donuts, a topological study of brain perfusion 
 - [Formation continue (malgré le COVID)](https://www.youtube.com/playlist?list=PLReS_CqwBJr3Tj8cSut52INgPxar1XSxY), an improvised and socially-distanced attempt to provide lectures to medical and surgical residents (in french) 
 
----
+---#
 
 Non-Academic Projects: 
 - [Kassandra](https://kassandra.julianklug.com), bringing machine learning safely to clinical practice
