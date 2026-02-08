@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Manning's"
 title_separator          : "-"
 name                     : &name "Manning's"
 description              : &description "PhD Candidate in Sociology and Health Policy"
