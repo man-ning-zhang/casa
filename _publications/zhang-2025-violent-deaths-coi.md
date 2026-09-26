@@ -3,7 +3,7 @@ title: "Disparities in Violent Deaths by Neighborhood Opportunity with the Child
 collection: publications
 authors: "Manning Zhang, Robert Ressler, Clemens Noelke, Dolores Acevedo-Garcia"
 permalink: /publications/zhang-2025-violent-deaths-coi
-venue: "AJPM Focus"
+venue: "AJPM Focus 4(4): 100357"
 date: 2025-01-01
 category: published
 ---

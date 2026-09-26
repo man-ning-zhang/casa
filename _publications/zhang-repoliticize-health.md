@@ -6,7 +6,7 @@ permalink: /publications/zhang-repoliticize-health
 venue: "Sociology of Health & Illness"
 date: 2026-09-01
 category: under-review
-status: "In submission"
+status: "Under revision, to be submitted"
 ---
 
-Examines how intersecting inequities are produced through the making and application of health knowledge.
+

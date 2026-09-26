@@ -6,7 +6,7 @@ permalink: /publications/zhang-centralizing-lifestyle
 venue: "Sociological Inquiry"
 date: 2026-08-01
 category: under-review
-status: "In submission"
+status: "Under revision, to be submitted"
 ---
 
-Asks how lifestyle becomes central to the making of status.
+

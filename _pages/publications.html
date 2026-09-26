@@ -1,0 +1,32 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.author.googlescholar %}
+<p>You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>. Public writing and editing are on the <a href="{{ '/writing/' | relative_url }}">Writing</a> page.</p>
+{% endif %}
+
+{% assign groups = "published|Peer-reviewed articles,book|Book chapters and book reviews,report|Selected policy reports,under-review|Under revision,working|Work in progress" | split: "," %}
+{% for g in groups %}
+{% assign parts = g | split: "|" %}
+{% assign key = parts[0] %}
+{% assign heading = parts[1] %}
+<h2>{{ heading }}</h2>
+<div class="entry-list">
+{% assign items = site.publications | where: "category", key | sort: "date" | reverse %}
+{% for post in items %}
+<div class="entry-card">
+<p class="entry-card__year">{{ post.date | date: "%Y" }}</p>
+<h3 class="entry-card__title">{{ post.title }}</h3>
+<p class="entry-card__meta">{{ post.authors }} &middot; <em>{{ post.venue }}</em>{% if post.status %} <span class="entry-card__status">{{ post.status }}</span>{% endif %}</p>
+<div class="entry-card__body">{{ post.content }}</div>
+{% if post.link %}<p class="entry-card__links"><a href="{{ post.link }}">{{ post.linklabel | default: "Link" }}</a></p>{% endif %}
+</div>
+{% endfor %}
+</div>
+{% endfor %}
