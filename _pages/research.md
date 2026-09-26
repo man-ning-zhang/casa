@@ -3,6 +3,7 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+page_class: research
 ---
 
 <div class="page-hero">

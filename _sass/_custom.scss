@@ -231,3 +231,18 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .cv strong { font-weight: 600; }
 .cv em { font-style: italic; }
 .cv a, .cv a:visited { color: var(--accent-deep); }
+
+// ===== Research page — unify outside typography (cards untouched) =====
+.research .page-hero__meta {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+.research > p {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--ink);
+  margin-top: 1.05rem;
+  margin-bottom: 1.05rem;
+}
