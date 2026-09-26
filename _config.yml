@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Manning's"
-title_separator          : "-"
-name                     : &name "Manning's"
-description              : &description "PhD Candidate in Sociology and Health Policy"
-url                      : https://man-ning-zhang.github.io/casa # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+title                    : "Manning Zhang"
+title_separator          : "–"
+name                     : &name "Manning Zhang"
+description              : &description "Medical and cultural sociologist. PhD candidate in Sociology and Social Policy at Brandeis University, working on health governance, the politics of health knowledge, and the social life of fitness."
+url                      : https://man-ning-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/casa" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/man-ning-zhang/casa"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -77,7 +77,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "custom" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -86,21 +86,21 @@ analytics:
 author:
   name             : "Manning Zhang"
   avatar           : "mn.png"
-  bio              : "PhD Candidate in Sociology and Health Policy"
-  location         : "Waltham, US"
-  employer         :
+  bio              : "PhD candidate in Sociology and Social Policy, Brandeis University"
+  location         : "Waltham, MA"
+  employer         : "Brandeis University"
   pubmed           : 
   googlescholar    :  "https://scholar.google.com/citations?user=C5xRneUAAAAJ&hl=en"
   email            :  "manningz33@brandeis.edu"
   researchgate     :  "https://www.researchgate.net/profile/Manning-Zhang-3"
-  uri              :
+  uri              :  "https://man-ning-zhang.github.io/casa"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "man-ning-zhang"
   google_plus      :
   keybase          :
   instagram        :
@@ -189,9 +189,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -235,15 +232,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
