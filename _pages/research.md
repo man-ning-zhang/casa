@@ -67,5 +67,5 @@ decision.
 
 ---
 
-Selected working papers are listed on the [Publications](/publications/) page; a full record of conference
-presentations is on the [Talks](/talks/) page.
+Selected working papers are listed on the [Publications]({{ '/publications/' | relative_url }}) page; a full record of conference
+presentations is on the [Talks]({{ '/talks/' | relative_url }}) page.

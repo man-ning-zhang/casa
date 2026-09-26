@@ -5,7 +5,7 @@ permalink: /writing/
 author_profile: true
 ---
 
-Public-facing writing and editing. Academic work is listed on the [Publications](/publications/) page.
+Public-facing writing and editing. Academic work is listed on the [Publications]({{ '/publications/' | relative_url }}) page.
 
 ## Public writing
 

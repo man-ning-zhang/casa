@@ -28,7 +28,7 @@ becomes a basis for social ties and community.
 
 My broader interests sit at the intersection of **health governance, medical sociology, the sociology of culture and
 knowledge, science and technology studies, and health policy**. I also write for public audiences — see
-[Writing](/writing/).
+[Writing]({{ '/writing/' | relative_url }}).
 
 ---
 
@@ -38,5 +38,5 @@ Manning Zhang  \
 Brandeis University, 415 South St., MS 071, Waltham, MA 02453  \
 manningz33@brandeis.edu
 
-A formal account of my work is on my [CV](/cv/); articles are indexed on
+A formal account of my work is on my [CV]({{ '/cv/' | relative_url }}); articles are indexed on
 [Google Scholar](https://scholar.google.com/citations?user=C5xRneUAAAAJ&hl=en).

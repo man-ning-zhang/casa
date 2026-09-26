@@ -42,4 +42,4 @@ author_profile: true
 
 ---
 
-Public writing and editing are listed on the [Writing](/writing/) page.
+Public writing and editing are listed on the [Writing]({{ '/writing/' | relative_url }}) page.

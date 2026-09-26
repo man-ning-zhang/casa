@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-A full CV is available as a PDF: **[Manning Zhang — Curriculum Vitae (PDF)](/files/Manning_Zhang_CV.pdf)** *(last
+A full CV is available as a PDF: **[Manning Zhang — Curriculum Vitae (PDF)]({{ '/files/Manning_Zhang_CV.pdf' | relative_url }})** *(last
 updated September 2026)*.
 
 ## Education
@@ -65,4 +65,4 @@ health policy; fitness.
 
 ---
 
-Teaching and mentorship are listed on the [Teaching](/teaching/) page.
+Teaching and mentorship are listed on the [Teaching]({{ '/teaching/' | relative_url }}) page.
