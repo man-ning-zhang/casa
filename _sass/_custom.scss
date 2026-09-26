@@ -14,13 +14,14 @@
   --paper: #FAF7F4;
   --rule: #E8E2D8;
   --serif: "EB Garamond", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 html { background-color: var(--paper); }
-body, .page { background: var(--paper); color: var(--ink); }
+body, .page { background: var(--paper); color: var(--ink); font-family: var(--sans); }
 .page__content, .sidebar { color: var(--ink); }
 
-h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; letter-spacing: -0.005em; color: var(--ink); }
+h1, h2, h3, h4 { font-family: var(--sans); font-weight: 500; letter-spacing: -0.005em; color: var(--ink); }
 .page__title {
   position: relative; padding-bottom: 0.6rem; margin-bottom: 1.4rem;
   font-size: 2.2rem; line-height: 1.15;
@@ -57,7 +58,7 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
   border-bottom: 1px solid var(--rule);
 }
 .page-hero__lede {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.2rem;
   color: var(--ink);
   letter-spacing: -0.003em;
@@ -213,7 +214,7 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
   width: 1.8rem; height: 2px; background: var(--accent);
 }
 .cv h3 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.2rem;
   font-weight: 500;
   margin-top: 1.4rem;
@@ -221,7 +222,7 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
   color: var(--ink);
 }
 .cv p, .cv li {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.04rem;
   line-height: 1.72;
   color: var(--ink);
@@ -234,12 +235,11 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
 // ===== Research page — unify outside typography (cards untouched) =====
 .research .page-hero__meta {
-  font-family: var(--serif);
-  font-style: italic;
+  font-family: var(--sans);
   font-size: 0.95rem;
 }
 .research > p {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--ink);
