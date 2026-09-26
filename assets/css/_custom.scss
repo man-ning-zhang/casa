@@ -1,0 +1,121 @@
+// =========================================================
+// Manning Zhang — academic site overrides
+// Restrained "editorial" treatment: warm paper, serif headings,
+// pink (icon-derived) used as accent only.
+// =========================================================
+
+:root {
+  --accent: #E8478C;
+  --accent-deep: #C6246E;
+  --accent-tint: rgba(232, 71, 140, 0.08);
+  --accent-rule: rgba(232, 71, 140, 0.30);
+  --ink: #1F1D1B;
+  --ink-muted: #5C564F;
+  --paper: #FAF7F4;
+  --rule: #E8E2D8;
+  --serif: "EB Garamond", "Source Serif Pro", Georgia, "Times New Roman", serif;
+}
+
+body, .page { background: var(--paper); color: var(--ink); }
+.page__content, .sidebar { color: var(--ink); }
+
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; letter-spacing: -0.005em; color: var(--ink); }
+.page__title {
+  position: relative; padding-bottom: 0.6rem; margin-bottom: 1.4rem;
+  font-size: 2.2rem; line-height: 1.15;
+}
+.page__title::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  width: 2.5rem; height: 2px; background: var(--accent);
+}
+
+.page .page__content h2 {
+  position: relative; padding-bottom: 0.4rem;
+  margin-top: 2.25rem; margin-bottom: 1rem;
+  font-size: 1.45rem;
+}
+.page .page__content h2::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  width: 1.8rem; height: 2px; background: var(--accent);
+}
+.page .page__content h3 { font-size: 1.15rem; margin-top: 1.6rem; }
+
+a, a:visited {
+  color: var(--accent-deep);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color .15s ease, border-color .15s ease;
+}
+a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.masthead__menu-item a:hover, .greedy-nav a:hover { color: var(--accent); }
+
+.page-hero {
+  padding: 1.25rem 0 1.5rem;
+  margin-bottom: 1.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+.page-hero__lede {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  color: var(--ink);
+  letter-spacing: -0.003em;
+}
+.page-hero__meta {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.01em;
+}
+
+.page__content > p:first-of-type::first-letter {
+  font-family: var(--serif);
+  font-size: 3.2em;
+  font-weight: 500;
+  float: left;
+  line-height: 0.9;
+  padding: 0.35rem 0.55rem 0 0;
+  color: var(--accent-deep);
+}
+
+.contact-card {
+  margin-top: 1.8rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-tint);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+.contact-card p { margin: 0.15rem 0; }
+
+.interest-list { list-style: none; padding: 0; margin: 0.6rem 0 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.interest-list li {
+  font-size: 0.85rem; color: var(--accent-deep);
+  background: var(--accent-tint);
+  border: 1px solid var(--accent-rule);
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+}
+
+.section-rule {
+  display: flex; align-items: center;
+  margin: 1.8rem 0 0.4rem;
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+.section-rule::before, .section-rule::after {
+  content: ""; flex: 1; height: 1px; background: var(--accent-rule);
+}
+.section-rule::before { margin-right: 0.8rem; }
+.section-rule::after { margin-left: 0.8rem; }
+
+.author__name { font-family: var(--serif); font-weight: 500; }
+.author__avatar img { border-radius: 50%; }
+.author__urls a { color: var(--ink-muted); }
+.author__urls a:hover { color: var(--accent); }
+
+@media (max-width: 64em) {
+  .page__title { font-size: 1.85rem; }
+  .page-hero__lede { font-size: 1.05rem; }
+}

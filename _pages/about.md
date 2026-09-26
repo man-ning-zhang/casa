@@ -8,6 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+<div class="page-hero" markdown="1">
+<div class="page-hero__lede">Medical and cultural sociologist, asking how health becomes governable.</div>
+<div class="page-hero__meta">PhD candidate, Sociology &amp; Social Policy, Brandeis University &middot; Waltham, MA</div>
+</div>
+
 I am a medical and cultural sociologist and a PhD candidate in the joint **Sociology and Social Policy** program at
 Brandeis University (expected 2027). I study how health problems become governable: how particular forms of knowledge
 about bodies, risk, and treatment come to count as authoritative, who gets to broker that authority, and with what
@@ -26,17 +31,27 @@ three related ethnographic studies with university students, gym members, and YM
 how people sustain bodily routines, how they negotiate competing meanings of health and well-being, and how exercise
 becomes a basis for social ties and community.
 
-My broader interests sit at the intersection of **health governance, medical sociology, the sociology of culture and
-knowledge, science and technology studies, and health policy**. I also write for public audiences — see
-[Writing]({{ '/writing/' | relative_url }}).
+I also write for public audiences — see [Writing]({{ '/writing/' | relative_url }}).
 
----
+## Research interests
 
-**Contact**
+<ul class="interest-list" markdown="1">
+<li>Health governance</li>
+<li>Medical sociology</li>
+<li>Sociology of culture &amp; knowledge</li>
+<li>Science &amp; technology studies</li>
+<li>Health policy</li>
+<li>Fitness &amp; the body</li>
+</ul>
 
-Manning Zhang  \
-Brandeis University, 415 South St., MS 071, Waltham, MA 02453  \
-manningz33@brandeis.edu
+<div class="contact-card" markdown="1">
+
+**Manning Zhang**  
+Brandeis University, 415 South St., MS 071, Waltham, MA 02453  
+[manningz33@brandeis.edu](mailto:manningz33@brandeis.edu)
 
 A formal account of my work is on my [CV]({{ '/cv/' | relative_url }}); articles are indexed on
-[Google Scholar](https://scholar.google.com/citations?user=C5xRneUAAAAJ&hl=en).
+[Google Scholar](https://scholar.google.com/citations?user=C5xRneUAAAAJ&hl=en) and
+[ORCID](https://orcid.org/0000-0003-0172-6826).
+
+</div>
