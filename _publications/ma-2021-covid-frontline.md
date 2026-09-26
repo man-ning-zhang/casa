@@ -6,6 +6,8 @@ permalink: /publications/ma-2021-covid-frontline
 venue: "Traumatology 27(4): 432-443"
 date: 2021-01-01
 category: published
+link: "https://doi.org/10.1037/trm0000343"
+linklabel: "Article (Traumatology)"
 ---
 
 

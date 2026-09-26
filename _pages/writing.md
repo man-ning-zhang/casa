@@ -7,14 +7,14 @@ author_profile: true
 
 <div class="page-hero">
 <div class="page-hero__lede">Writing for audiences beyond the journal.</div>
-<div class="page-hero__meta">ThePaper.cn (&#28459;&#28459;&#30740;&#31350;&#25152;) &middot; ASA Culture Section Newsletter &middot; Open-Air Journal</div>
+<div class="page-hero__meta">澎湃研究所 &middot; ASA Culture Section Newsletter &middot; Open-Air Journal</div>
 </div>
 
 <div class="entry-list">
 <div class="entry-card">
 <p class="entry-card__year">September 2026</p>
 <h3 class="entry-card__title">Early-Stage Financing for Hard-Tech Startups in the Yangtze River Delta</h3>
-<p class="entry-card__meta">Xie, Qiuyi &amp; Zhang, Manning &middot; <em>ThePaper.cn (&#28459;&#28459;&#30740;&#31350;&#25152;)</em></p>
+<p class="entry-card__meta">Xie, Qiuyi &amp; Zhang, Manning &middot; <em>澎湃研究所</em></p>
 <div class="entry-card__body"><p>Direct investment by state-owned capital becomes a trend, while cross-provincial collaboration gains momentum. Published in Mandarin.</p></div>
 <p class="entry-card__links"><a href="https://m.thepaper.cn/newsDetail_forward_34066468">Read it here</a></p>
 </div>

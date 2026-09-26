@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-The full CV is available as a PDF: **[Manning Zhang &mdash; Curriculum Vitae](/files/Manning_Zhang_CV.pdf)** *(updated September 2026)*.
+The full CV is available as a PDF: **[Manning Zhang &mdash; Curriculum Vitae]({{ '/files/Manning_Zhang_CV.pdf' | relative_url }})** *(updated September 2026)*.
 
 ## Education
 
