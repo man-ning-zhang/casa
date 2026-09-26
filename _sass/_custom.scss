@@ -193,3 +193,41 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 }
 
 .entry-card__tags { margin: 0.5rem 0 0; font-size: 0.8rem; color: var(--ink-muted); }
+
+// ===== CV page — editorial typography =====
+.cv {
+  font-family: var(--serif);
+  color: var(--ink);
+}
+.cv h2 {
+  position: relative;
+  padding-bottom: 0.4rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+.cv h2::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  width: 1.8rem; height: 2px; background: var(--accent);
+}
+.cv h3 {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--ink);
+}
+.cv p, .cv li {
+  font-family: var(--serif);
+  font-size: 1.04rem;
+  line-height: 1.72;
+  color: var(--ink);
+}
+.cv ul { margin-top: 0.2rem; }
+.cv li { margin-bottom: 0.4rem; }
+.cv strong { font-weight: 600; }
+.cv em { font-style: italic; }
+.cv a, .cv a:visited { color: var(--accent-deep); }

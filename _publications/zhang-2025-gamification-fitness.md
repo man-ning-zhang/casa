@@ -6,6 +6,8 @@ permalink: /publications/zhang-2025-gamification-fitness
 venue: "Technology, Sport and Recreation: Physical Activity in the Digital Age (Routledge)"
 date: 2025-01-01
 category: book
+link: "https://doi.org/10.4324/9781003588405-4"
+linklabel: "Chapter (Routledge)"
 ---
 
 In Jacob Bustad and Gashaw Abeza (Eds.), *Technology, Sport and Recreation: Physical Activity in the Digital Age*.

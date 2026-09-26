@@ -6,6 +6,8 @@ permalink: /publications/zhang-2024-book-review-sexual-health
 venue: "Sexualities"
 date: 2024-01-01
 category: book
+link: "https://doi.org/10.1177/13634607241238722"
+linklabel: "Book review (Sexualities)"
 ---
 
 
