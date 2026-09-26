@@ -5,12 +5,12 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% assign entries = site.talks | sort: "date" | reverse %}
+{% for post in entries %}
+<h3>{{ post.title }}</h3>
+<p class="page__meta">{{ post.date | date: "%B %Y" }}</p>
+<p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.location }}</p>
+{{ post.content }}
 {% endfor %}

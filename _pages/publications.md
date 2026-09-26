@@ -17,7 +17,7 @@ author_profile: true
 {% for post in group %}
 <h3>{{ post.title }}</h3>
 <p>{{ post.authors }} &middot; <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
-{% if post.excerpt %}<p>{{ post.excerpt | markdownify }}</p>{% endif %}
+{% if post.content %}{{ post.content }}{% endif %}
 {% if post.paperurl %}<p><a href="{{ post.paperurl }}">PDF</a>{% if post.link %} &middot; <a href="{{ post.link }}">Journal page</a>{% endif %}</p>{% endif %}
 {% endfor %}
 
@@ -27,7 +27,7 @@ author_profile: true
 {% for post in group %}
 <h3>{{ post.title }}</h3>
 <p>{{ post.authors }} &middot; <i>{{ post.venue }}</i> &middot; {{ post.status }}</p>
-{% if post.excerpt %}<p>{{ post.excerpt | markdownify }}</p>{% endif %}
+{% if post.content %}{{ post.content }}{% endif %}
 {% if post.paperurl %}<p><a href="{{ post.paperurl }}">Preprint</a>{% if post.link %} &middot; <a href="{{ post.link }}">Journal page</a>{% endif %}</p>{% endif %}
 {% endfor %}
 
@@ -37,7 +37,7 @@ author_profile: true
 {% for post in group %}
 <h3>{{ post.title }}</h3>
 <p>{{ post.status }}</p>
-{% if post.excerpt %}<p>{{ post.excerpt | markdownify }}</p>{% endif %}
+{% if post.content %}{{ post.content }}{% endif %}
 {% endfor %}
 
 ---

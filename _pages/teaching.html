@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign entries = site.teaching | sort: "date" | reverse %}
+{% for post in entries %}
+<h3>{{ post.title }}</h3>
+<p>{{ post.type }} &middot; <i>{{ post.venue }}</i> &middot; {{ post.date | date: "%Y" }}</p>
+{{ post.content }}
 {% endfor %}
