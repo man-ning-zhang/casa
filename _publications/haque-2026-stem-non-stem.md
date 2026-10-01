@@ -3,7 +3,7 @@ title: "Undoing the STEM/non-STEM Boundary: Exploring Women's STEM-Related Exper
 collection: publications
 authors: "Zora Haque, Manning Zhang, Tatjana Meschede, Marji Warfield"
 permalink: /publications/haque-2026-stem-non-stem
-venue: "Gender, Work & Organization, 1-14"
+venue: "Gender, Work & Organization, 33(6): 2171–2184"
 date: 2026-01-01
 category: published
 link: "https://doi.org/10.1111/gwao.70189"
