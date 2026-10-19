@@ -25,8 +25,8 @@ My research begins with a dissertation on how obesity is governed in China and e
 </div>
 
 <div class="entry-card">
-<p class="entry-card__year">Planned research for the postdoctoral and faculty years</p>
-<h3 class="entry-card__title">The Pharmaceuticalization of Obesity Medicine: A Comparative Lens</h3>
+<p class="entry-card__year">The Postdoctoral and Faculty-Stage Research Program</p>
+<h3 class="entry-card__title">The Pharmaceuticalization of Obesity Medicine: A Comparative Perspective</h3>
 <div class="entry-card__body">
 <p>This comparative research program asks how obesity becomes governable through pharmaceutical means, and how states, firms, and patients broker the knowledge and money that make drug treatment legitimate and payable. It proceeds along two lines.</p>
 
@@ -35,19 +35,9 @@ My research begins with a dissertation on how obesity is governed in China and e
 <p>Political regimes shape how patients voice their demands, but democratic and authoritarian contexts yield a shared outcome. In the United States, advocacy runs through institutional avenues such as lobbying and litigation. In China, where patients lack formal channels, collective action flourishes in informal digital spaces and corporate-backed networks. Pharmaceutical companies build dedicated patient-advocacy divisions, frequently working through philanthropic foundations as intermediaries. Patient activism is then redirected away from collective critique toward individual treatment choices and market expansion, through staged storytelling, charity walks, and sponsored workshops.</p>
 <p>To assess whether this amplified yet redirected voice yields genuine institutional responsiveness, I draw on a framework of democratic accountability, understood as the institutional capacity of organized groups to voice claims, contest decisions, and obtain a meaningful response. The Chinese component is a digital ethnography of obesity communities on WeChat, Douyin, and RedNote, with interviews of patients, moderators, company representatives, and foundation staff. The U.S. component assembles a documentary corpus from organizations such as the Obesity Action Coalition and the National Association to Advance Fat Acceptance, alongside FDA docket comments and advisory records on anti-obesity medications. The project extends my account of knowledge brokerage from expert to lay expertise, asking how corporate strategy and state priority together broker patient knowledge into policy.</p>
 
-<figure class="entry-figure">
-  <img src="{{ '/images/patient-voice-framework.png' | relative_url }}" alt="Patient-voice mobilization and co-optation across the United States and China">
-  <figcaption>Figure 1. A conceptual map of patient-voice mobilization and co-optation across the United States and China.</figcaption>
-</figure>
-
 <h4 class="entry-card__subtitle"><span class="idx">2.</span><em>Cui bono?</em> Who Pays for Anti-Obesity Medication</h4>
 <p>In 2024, China launched a three-year national campaign for weight management that emphasized physical activity and a non-pharmaceutical approach, yet that same year approved semaglutide (Wegovy) for chronic weight management while leaving its weight-loss use outside public insurance. The United Kingdom took the opposite path: NICE recommended coverage of Wegovy and Mounjaro, then the NHS constrained access through local commissioning. Both states face the same dilemma of balancing public health needs against the cost of treatment, but they resolve it differently.</p>
 <p>Pharmaceuticalization research explains how obesity became a target for drug intervention, yet it draws mainly on Anglo-American cases and stops at clinical adoption, leaving unexamined how states decide whether to fund these treatments. This project asks under what conditions, and through what strategies, governments convert contested knowledge about anti-obesity medicines into binding rules about public payment, and who bears the cost and who benefits. Comparing China and the United Kingdom, it identifies the mechanisms through which the state, expert bodies, and industry shape coverage, and tests them against rival explanations. For China it reuses my 2026 Shanghai and Beijing fieldwork, conference observation, and interviews alongside policy documents and clinical guidelines. For the United Kingdom it relies on NICE technology appraisals, NHS commissioning guidance, and local position statements, complemented by a small number of elite interviews, analyzed through a process-tracing sequence from authoritative evidence to the populations ultimately eligible for public reimbursement.</p>
-
-<figure class="entry-figure">
-  <img src="{{ '/images/cui-bono-comparison.png' | relative_url }}" alt="UK-China comparison of GLP-1 reimbursement governance">
-  <figcaption>Figure 2. A comparison of GLP-1 reimbursement governance in the United Kingdom and China.</figcaption>
-</figure>
 </div>
 </div>
 
