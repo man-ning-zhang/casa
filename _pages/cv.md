@@ -37,6 +37,7 @@ Health governance; medical sociology; sociology of culture; sociology of knowled
 
 ## Awards and funds
 
+- **Barbara Brown Outstanding Student Paper Award**, Doctoral Category, North American Society for the Sociology of Sport (2026) &mdash; $1,000 toward conference expenses and a waiver of the conference registration fee, for "Fitness as a Temporal Craft"
 - **Berkowitz Dissertation Research Prize**, Sociology Department, Brandeis University (2026) &mdash; $600
 - **Roberta L. Lipson '76 and Ted Plafker Endowed Travel to China Fund** (2026) &mdash; $2,500
 - **Heller School Student Dissertation Enrichment Fund** (2026) &mdash; $3,000
