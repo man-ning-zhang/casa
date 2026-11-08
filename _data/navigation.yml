@@ -20,5 +20,8 @@ main:
   - title: "Writing"
     url: /writing/
 
+  - title: "Creative Projects"
+    url: /creative-projects/
+
   - title: "CV"
     url: /cv/

@@ -10,7 +10,7 @@ Live at <https://man-ning-zhang.github.io/casa/>.
 
 | Directory | Contents |
 | --- | --- |
-| `_pages/` | Static pages: about (home), research, publications, writing, CV |
+| `_pages/` | Static pages: about (home), research, publications, writing, creative projects, CV |
 | `_publications/` | One Markdown file per publication (`category:` controls grouping) |
 | `_talks/` | One Markdown file per conference presentation |
 | `_teaching/` | Teaching and mentorship entries |
